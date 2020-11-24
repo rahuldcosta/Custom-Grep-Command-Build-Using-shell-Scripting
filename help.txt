@@ -1,0 +1,37 @@
+dgrep(1)                                                                     User Commands                                                             dgrep(1)
+NAME       ./dgrep.sh - .
+
+
+
+SYNOPSIS      ./dgrep.sh [OPTION] [Pattern] Directories OR Files 
+
+DESCRIPTION
+
+       finds a pattern in files under a series of directories given by the user.
+
+ 	Default Behavouir is If not Arguments are passed is to List the Files in Current DIrectory
+       -n [PATTERN] ..... each line of output with the 1-based line number within its input file.
+   
+       -c [PATTERN] ..... print the count of matching lines for input file. 
+
+       -o [PATTERN] ..... Print  only  the  matched  (non-empty)  parts of a matching line, with each such part on a separate output line
+  
+       -f [FILENAME]  Finds a file with the FIlename Specified by the user
+	
+       -r  [PATTERN] ..... Checks for pattern mathcing Recursively inside sub directories
+
+ -cr /-rc - print the count of matching lines for input file by Checks for pattern mathcing Recursively inside sub directories
+ -or /-ro - Prints only matching pattern in file by Checks for pattern mathcing Recursively inside sub directories
+
+	-h    Display this help and exit 
+	-q  [Line No]  To quit after certian amount of lines
+
+AUTHOR
+
+       Written by Rahul Dcosta and kaushal kishore.
+
+REPORTING BUGS
+
+       Send us email if you have any problem with this command @ <kaushalkishorersmt@gmail.com>
+
+										February  2014                                                                    
